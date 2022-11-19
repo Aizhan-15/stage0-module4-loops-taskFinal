@@ -9,10 +9,10 @@ public class HalfPyramid {
             for (int k = 0; k <= i; k++) {
                 System.out.print("*");
             }
-
-            public static void main(String[]args){
+    }
+    }
+            public static void main(String[] args){
                 new HalfPyramid().printHalfPyramid(8);
+
             }
         }
-    }
-}
