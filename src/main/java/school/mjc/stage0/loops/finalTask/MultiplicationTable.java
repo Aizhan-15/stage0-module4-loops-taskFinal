@@ -2,11 +2,10 @@ package school.mjc.stage0.loops.finalTask;
 
 public class MultiplicationTable {
     public void printTable(int numberTableToPrint) {
-        for (int i = 1; i <= numberTableToPrint; i++) {
-            for (int j = 1; j <= numberTableToPrint; j++) {
-                System.out.print("i x"+ numberTableToPrint = i * numberTableToPrint);
-            }
-            System.out.println();
+        for (int i = 1; i <= 10; i++) {
+
+            System.out.println(numberTableToPrint + " * " + i + " = "
+                    + numberTableToPrint * i);
         }
     }
 }
